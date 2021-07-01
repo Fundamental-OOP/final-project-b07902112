@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>zombie.Zombie</OriginalElement>
+  <nodes>
+    <node x="0.0" y="-51.0">zombie.Zombie</node>
+    <node x="40.0" y="129.75">zombie.ConeheadZombie</node>
+    <node x="40.0" y="10.0">zombie.NormalZombie</node>
+    <node x="40.0" y="247.25">zombie.NewspaperZombie</node>
+    <node x="40.0" y="71.0">zombie.FlagZombie</node>
+    <node x="39.0" y="188.5">zombie.BucketheadZombie</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="zombie.NewspaperZombie" target="zombie.Zombie" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="129.5" y="233.375" />
+      <point x="5.0" y="233.375" />
+      <point x="-47.0" y="0.0" />
+    </edge>
+    <edge source="zombie.NormalZombie" target="zombie.Zombie" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="117.0" y="-5.0" />
+      <point x="5.0" y="-5.0" />
+      <point x="-47.0" y="0.0" />
+    </edge>
+    <edge source="zombie.ConeheadZombie" target="zombie.Zombie" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="125.5" y="115.875" />
+      <point x="5.0" y="115.875" />
+      <point x="-47.0" y="0.0" />
+    </edge>
+    <edge source="zombie.BucketheadZombie" target="zombie.Zombie" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="129.5" y="174.625" />
+      <point x="5.0" y="174.625" />
+      <point x="-47.0" y="0.0" />
+    </edge>
+    <edge source="zombie.FlagZombie" target="zombie.Zombie" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="106.0" y="56.0" />
+      <point x="5.0" y="56.0" />
+      <point x="-47.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Compact" zoom="2.0500000000000003" showDependencies="false" x="140.80737250554336" y="115.78298226164081" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

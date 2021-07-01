@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>model.Sprite</OriginalElement>
+  <nodes>
+    <node x="533.3750000000002" y="71.0">zombie.ZombieDie</node>
+    <node x="41.5" y="193.0">menu.GameMenu</node>
+    <node x="181.0" y="132.0">menu.GameOverText</node>
+    <node x="288.5" y="193.0">menu.Card</node>
+    <node x="181.0" y="193.0">menu.Shovel</node>
+    <node x="529.0000000000005" y="193.0">plant.Plant</node>
+    <node x="40.0" y="71.0">zombie.ZombieGenerator</node>
+    <node x="673.5000000000005" y="71.0">zombie.Zombie</node>
+    <node x="40.0" y="132.0">menu.Background</node>
+    <node x="0.0" y="10.0">model.Sprite</node>
+    <node x="223.12500000000006" y="71.0">zombie.ZombieBoom</node>
+    <node x="386.75000000000017" y="193.0">menu.Collectable</node>
+    <node x="380.2500000000001" y="71.0">zombie.ZombieHead</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="plant.Plant" target="model.Sprite" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="571.5000000000005" y="178.0" />
+      <point x="5.0" y="178.0" />
+      <point x="-40.5" y="0.0" />
+    </edge>
+    <edge source="zombie.ZombieDie" target="model.Sprite" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="596.8750000000002" y="56.0" />
+      <point x="5.0" y="56.0" />
+      <point x="-40.5" y="0.0" />
+    </edge>
+    <edge source="menu.Background" target="model.Sprite" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="105.5" y="117.0" />
+      <point x="5.0" y="117.0" />
+      <point x="-40.5" y="0.0" />
+    </edge>
+    <edge source="menu.Card" target="model.Sprite" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="330.0" y="178.0" />
+      <point x="5.0" y="178.0" />
+      <point x="-40.5" y="0.0" />
+    </edge>
+    <edge source="zombie.ZombieBoom" target="model.Sprite" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="295.12500000000006" y="56.0" />
+      <point x="5.0" y="56.0" />
+      <point x="-40.5" y="0.0" />
+    </edge>
+    <edge source="menu.GameMenu" target="model.Sprite" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="105.5" y="178.0" />
+      <point x="5.0" y="178.0" />
+      <point x="-40.5" y="0.0" />
+    </edge>
+    <edge source="menu.GameOverText" target="model.Sprite" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="256.0" y="117.0" />
+      <point x="5.0" y="117.0" />
+      <point x="-40.5" y="0.0" />
+    </edge>
+    <edge source="zombie.ZombieHead" target="model.Sprite" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="450.2500000000001" y="56.0" />
+      <point x="5.0" y="56.0" />
+      <point x="-40.5" y="0.0" />
+    </edge>
+    <edge source="menu.Shovel" target="model.Sprite" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="229.0" y="178.0" />
+      <point x="5.0" y="178.0" />
+      <point x="-40.5" y="0.0" />
+    </edge>
+    <edge source="menu.Collectable" target="model.Sprite" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="450.25000000000017" y="178.0" />
+      <point x="5.0" y="178.0" />
+      <point x="-40.5" y="0.0" />
+    </edge>
+    <edge source="zombie.ZombieGenerator" target="model.Sprite" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="125.0" y="56.0" />
+      <point x="5.0" y="56.0" />
+      <point x="-40.5" y="0.0" />
+    </edge>
+    <edge source="zombie.Zombie" target="model.Sprite" relationship="GENERALIZATION">
+      <point x="0.0" y="0.0" />
+      <point x="725.5000000000005" y="56.0" />
+      <point x="5.0" y="56.0" />
+      <point x="-40.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Compact" zoom="1.6000000000000003" showDependencies="false" x="438.6058980841286" y="124.53283029193074" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

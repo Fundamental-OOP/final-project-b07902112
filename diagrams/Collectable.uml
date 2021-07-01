@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>menu.Collectable</OriginalElement>
+  <nodes>
+    <node x="96.0" y="81.0">menu.Coin</node>
+    <node x="22.5" y="5.909090909090935">menu.Collectable</node>
+    <node x="0.0" y="81.0">menu.Sun</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="menu.Coin" target="menu.Collectable" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="137.0" y="56.0" />
+      <point x="86.0" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="menu.Sun" target="menu.Collectable" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="38.0" y="56.0" />
+      <point x="86.0" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="2.1999999999999997" showDependencies="false" x="170.36363636363632" y="86.54545454545453" />
+  <SelectedNodes>
+    <node>menu.Collectable</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
